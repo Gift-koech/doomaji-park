@@ -1,12 +1,11 @@
-h1{
-    color: aqua;
-}
+
+
 *{
-    background-color: black;
+    background-color:whitesmoke;
 }
 .navigation-bar{
     background: linear-gradient(90deg,
-        rgb(28, 27, 27) 0%,  rgb(26, 23, 23) 100%);
+        rgb(150, 140, 140) 0%,  rgb(26, 23, 23) 100%);
     height: 80px;
     display: flex;
     justify-content:center;
@@ -15,6 +14,7 @@ h1{
     z-index: 999;
     padding: 0.5rem 1rem;
     line-height: 2rem;
+    color: rgb(189, 181, 181);
     
 
 
@@ -40,9 +40,9 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: blue;
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: black;
 }

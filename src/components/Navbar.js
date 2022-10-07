@@ -1,8 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Link } from 'react-router-dom';
+import React from "react";
 import './Navbar.css';
-import { Button } from '@mui/material';
-
 
 
 function Navbar() {
@@ -17,12 +14,10 @@ function Navbar() {
                  <li><a href="#contact">Contact</a></li>
                 <li><a href="#about">About</a></li>
                 </ul>
-
-        
                </div>
         </nav>
-            
         </div>
     );
 }
 export default Navbar;
+
