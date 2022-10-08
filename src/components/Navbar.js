@@ -1,23 +1,45 @@
 import React from "react";
 import './Navbar.css';
 
-
+import {Link} from"react-router-dom"  
 function Navbar() {
  
     return (
         <div>
             <nav>
-                <div>
-                  <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
+                <Link to="/" className="site-title" >
+                Doomanji
+                </Link> 
+                <ul>
+                 
+                    <CustomLink to="/Ridespage">Ridespage</CustomLink>
+                    <CustomLink to="/Themeparks">Themeparks</CustomLink>
+                    <CustomLink to="/Pricing">Pricing</CustomLink>
+                    
                 </ul>
-               </div>
-        </nav>
+            
+           </nav>
+            {/* <nav>
+                <ul>
+                <Link href="#home">Home</Link>
+                <Link href="#Rides">Rides</Link>
+                <Link href="/">Services</Link>
+                <Link href="/about">Pricing</Link>
+                <Link href="/Themepark">Themeparks</Link>
+                </ul>
+              
+        </nav> */}
         </div>
     );
+    function CustomLink({ href, children, ...props }) {
+    const path = window.location.pathname
+    return (
+        <li className={path === Link ? "active" : ""} >
+            <a href={Link} {...props}>{children}</a>
+        </li>
+    );
+} 
 }
+
 export default Navbar;
 

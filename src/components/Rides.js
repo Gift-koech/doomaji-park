@@ -1,6 +1,6 @@
 import React from "react";
 import Cards from "./Cards";
-import './rides.css'
+import './Rides.css'
 
 
 function rides() {
@@ -25,13 +25,13 @@ function rides() {
           </ul>
           <ul className='cards__items'>
             <Cards
-              src='images/img-3.jpg'
+              src='public/assests/devilscrib.jpeg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
               path='/services'
             />
             <Cards
-              src='images/img-4.jpg'
+              src='public/assets/funhouse'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
               path='/products'
