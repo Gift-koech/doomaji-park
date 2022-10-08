@@ -1,10 +1,11 @@
 .cards {
     padding: 2rem;
-    background:black;
+    
 }
 
 h1 {
     text-align: center;
+    color: whitesmoke;
 }
 
 .cards__container {
@@ -50,7 +51,7 @@ h1 {
 
 .fade-img {
     animation-name: fade-img;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 .cards__item__pic-wrap::after {
@@ -62,7 +63,7 @@ h1 {
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(10, 7, 7);
     background-color: #1f98f4;
     box-sizing: border-box;
 }
@@ -83,16 +84,16 @@ h1 {
 }
 
 .cards__item__img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px ;
 }
 
 .cards__item__text {
-    color: #252e48;
-    font-size: 18px;
+    color: whitesmoke;
+    font-size: 30px;
     line-height: 24px;
 }
 

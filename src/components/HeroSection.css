@@ -1,9 +1,9 @@
 video {
-    object-fit: cover;
-    width: 100%;
+    object-fit: contain;
+    width: 70%;
     height: 70%;
     position: fixed;
-    z-index: -1;
+    z-index: -1 ;
 }
 
 .hero-container {
@@ -18,17 +18,21 @@ video {
     object-fit: contain;
 }
 
-.hero-container>h1 {
-    color: rgb(12, 11, 11);
+.hero-container>h1{
+    color:whitesmoke;
     font-size: 100px;
     margin-top: -90px;
 }
 
 .hero-container>p {
     margin-top: 8px;
-    color: rgb(13, 12, 12);
+    color: rgb(255, 241, 241);
     font-size: 32px;
     
+}
+.sub{
+    color: aliceblue;
+    font-size: 2rem;
 }
 
 .hero-btns {

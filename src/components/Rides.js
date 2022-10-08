@@ -6,37 +6,38 @@ import './Rides.css'
 function rides() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC rides!</h1>
+      <h1>Check out these Epic holiday categories!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <Cards
-              src='/assets/cursedwheels.jpg'
-              text='Take a ride on the wheels of Terror'
-              label='Heart stopper'
-              path='/Ridespage'
+              src='/assets/marineholiday.jpg'
+              text=''
+              label='Marine Tours'
+             
             />
             <Cards
-              src='/assets/funhouse.jpg'
-              text='Join the funhouse funclub.. '
-              label='Heart Stopper'
-              path='/services'
+              src='/assets/elephantinpond.jpg'
+              text=''
+              label='Savannah safari'
+           
             />
           </ul>
           <ul className='cards__items'>
             <Cards
-              src='/assests/devilscrib.jpeg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='/assets/amazon.jpg'
+              text=''
+              label='Amazon Tour'
+           
             />
            
             <Cards
-              src='assets/dragontide.jpeg'
-              text='Ride the dragontide wheel '
-              label='Adrenaline'
-              path='/sign-up'
+              src='/assets/deserttour.jpg'
+              text=' '
+              label='Deserts n Outbacks'
+              
             />
+         
           </ul>
         </div>
       </div>

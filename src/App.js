@@ -5,27 +5,30 @@ import Rides from "./components/Rides";
 import './App.css'
 import {Route,Routes } from "react-router-dom";
 import Pricing from "./pages/Pricing";
-import Services from "./pages/Services";
-import Themepark from "./pages/Themepark";
+
+import Themepark from "./pages/Themeparks";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Activities from "./pages/Activities";
 
 function App() {
   return (
     <div>
       <h1>DOOMANJI</h1>
-       <HeroSection/>
+      <Navbar />
+      <HeroSection/>
       <Home />
       <Rides />
-     
-      <div className="container">
+      <div className="container" >
         <Routes>
           <Route path="/" element={<Home/> }/>
           <Route path="/Pricing" element={<Pricing/>} />
-          <Route path="/Services" element={<Services />} />
+          <Route path="/Activities" element={<Activities />} />
           <Route path="/Themepark" element={<Themepark/> }/>
         </Routes>
-        <Footer/>
+        <Footer />
+     
       </div>
 
     </div>
