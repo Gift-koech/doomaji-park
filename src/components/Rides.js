@@ -11,34 +11,29 @@ function rides() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <Cards
-              src='public/assets/cursedwheels.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='/assets/cursedwheels.jpg'
+              text='Take a ride on the wheels of Terror'
+              label='Heart stopper'
+              path='/Ridespage'
             />
             <Cards
-              src='public/assets/devilscrib.jpeg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='/assets/funhouse.jpg'
+              text='Join the funhouse funclub.. '
+              label='Heart Stopper'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <Cards
-              src='public/assests/devilscrib.jpeg'
+              src='/assests/devilscrib.jpeg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
               path='/services'
             />
+           
             <Cards
-              src='public/assets/funhouse'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <Cards
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src='assets/dragontide.jpeg'
+              text='Ride the dragontide wheel '
               label='Adrenaline'
               path='/sign-up'
             />

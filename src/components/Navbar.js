@@ -31,11 +31,11 @@ function Navbar() {
         </nav> */}
         </div>
     );
-    function CustomLink({ href, children, ...props }) {
+    function CustomLink({ to , children, ...props }) {
     const path = window.location.pathname
     return (
-        <li className={path === Link ? "active" : ""} >
-            <a href={Link} {...props}>{children}</a>
+        <li className={path === to ? "active" : ""} >
+            <a to={Link} {...props}>{children}</a>
         </li>
     );
 } 

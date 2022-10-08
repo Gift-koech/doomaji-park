@@ -7,6 +7,7 @@ import {Route,Routes } from "react-router-dom";
 import Pricing from "./pages/Pricing";
 import Services from "./pages/Services";
 import Themepark from "./pages/Themepark";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
@@ -14,13 +15,15 @@ function App() {
       <h1>DOOMANJI</h1>
       <Navbar />
       <Home />
+      <HeroSection/>
       <Rides />
+     
       <div className="container">
         <Routes>
           <Route path="/" element={<Home/> }/>
           <Route path="/Pricing" element={<Pricing/>} />
-          <Route path="/" element={<Services />} />
-          <Route path="/" element={<Themepark/> }/>
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Themepark" element={<Themepark/> }/>
         </Routes>
       </div>
 
