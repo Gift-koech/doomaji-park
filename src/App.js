@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+
 import Home from "./components/Home";
 import Rides from "./components/Rides";
 import './App.css'
@@ -8,14 +8,14 @@ import Pricing from "./pages/Pricing";
 import Services from "./pages/Services";
 import Themepark from "./pages/Themepark";
 import HeroSection from "./components/HeroSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <h1>DOOMANJI</h1>
-      <Navbar />
+       <HeroSection/>
       <Home />
-      <HeroSection/>
       <Rides />
      
       <div className="container">
@@ -25,6 +25,7 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/Themepark" element={<Themepark/> }/>
         </Routes>
+        <Footer/>
       </div>
 
     </div>
